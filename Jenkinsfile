@@ -25,7 +25,7 @@ pipeline {
                 echo 'Desplegando a entorno de Staging...'
                 // Aquí podrías copiar archivos a otra carpeta o servidor
                 sh 'mkdir -p staging_area'
-                sh 'cp hola.py staging_area/'
+                sh 'cp ende.py staging_area/'
                 echo 'Despliegue completado.'
             }
         }
